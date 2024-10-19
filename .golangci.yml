@@ -1,0 +1,20 @@
+# Original setup inside https://github.com/Dainius-P/GoProjectTemplate
+linters:
+  enable:
+    - asasalint # Check for pass []any as any in variadic func(...any).
+    - bodyclose # Checks whether HTTP response body is closed successfully.
+    - containedctx # Detects struct contained context.Context field.
+    - contextcheck # Check whether the function uses a non-inherited context.
+    - err113 # Check the errors handling expressions.
+    - errname # Checks that sentinel errors are prefixed with the Err and error types are suffixed with the Error.
+    - forcetypeassert # Finds forced type assertions.
+    - gocritic # Provides diagnostics that check for bugs, performance and style issues.
+    - godot # Check if comments end in a period.
+    - gofmt # Gofmt checks whether code was gofmt-ed. By default this tool runs with -s option to check for code simplification.
+    - gofumpt # Gofumpt checks whether code was gofumpt-ed.
+    - gosec # Inspects source code for security problems.
+    - ireturn # Accept Interfaces, Return Concrete Types.
+    - mnd # An analyzer to detect magic numbers.
+    - nonamedreturns # Reports all named returns.
+    - revive # Fast, configurable, extensible, flexible, and beautiful linter for Go
+    - wrapcheck # Checks that errors returned from external packages are wrapped.
